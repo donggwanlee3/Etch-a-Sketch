@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+button {
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px; /* Adjust the width as needed */
+    height: 640px; /* Adjust the height as needed */
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
